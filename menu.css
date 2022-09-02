@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+--corPrincipal: #15B097;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--corPrincipal);
+}
+
+.container{
+    background-color:#fff;
+   width: 300px;
+   height: 300px;
+   border-radius: 10px;
+   position: relative;
+
+}
+.container .menu{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    list-style: none;
+    color: var(--corPrincipal);
+}
+.menu .item{
+    padding: 10px;
+}
+.menu .item a{
+   
+    text-decoration: none;
+    color: var(--corPrincipal);
+}
