@@ -28,11 +28,27 @@ body{
     list-style: none;
     color: var(--corPrincipal);
 }
+.menu{
+   
+}
 .menu .item{
     padding: 10px;
+  display: flex;
+  align-items: center;
+ 
+}
+.menu .item:hover{
+    background-color:beige;
 }
 .menu .item a{
-   
+   padding-left: 10px;
     text-decoration: none;
     color: var(--corPrincipal);
+    background-color: blue;
+    
+
+}
+ .item  ion-icon{
+
+    cursor: pointer;
 }
