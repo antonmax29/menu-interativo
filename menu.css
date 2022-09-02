@@ -15,38 +15,56 @@ body{
 
 .container{
     background-color:#fff;
-   width: 300px;
-   height: 300px;
+   width: 60px;
+   height: 340px;
    border-radius: 10px;
    position: relative;
+   margin: 60px auto;
+  
+   
 
 }
 .container .menu{
-    position: absolute;
-    top: 5%;
-    left: 10%;
+    
+   
     list-style: none;
     color: var(--corPrincipal);
+    display: flex;
+    flex-direction:  column;
+   
 }
 
 .menu .item{
-    padding: 10px;
-  display: flex;
-  align-items: center;
+   margin: 5px;
+   
  
 }
 .menu .item:hover{
-    background-color:beige;
+    background-color:aquamarine;
+    border-radius: 5px;
 }
 .menu .item a{
-   padding-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  padding: 10px;
     text-decoration: none;
     color: var(--corPrincipal);
-    background-color: blue;
+   
     
 
 }
- .item  ion-icon{
 
-    cursor: pointer;
+.item a span{
+   display: none; 
+margin-left: 10px;
+}
+.btn-seta{
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    right: -35%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid var(--corPrincipal);
 }
