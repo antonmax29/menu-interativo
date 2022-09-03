@@ -63,7 +63,7 @@ margin-left: 10px;
 }
 .btn-seta{
     background-color: white;
-    
+    color: var(--corPrincipal);
   
     top: 45%;
     right: -20%;
@@ -73,6 +73,7 @@ margin-left: 10px;
 }
 .btn-seta2{
     background-color: white;
+    color: var(--corPrincipal);
     display: none;
     padding: 10px;
     border-radius: 20px;
