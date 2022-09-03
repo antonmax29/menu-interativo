@@ -2,7 +2,7 @@ const setaNext = document.querySelector('.btn-seta');
 const setaPrevious = document.querySelector('.btn-seta2');
 const container = document.querySelector('.container');
 
-const texto = document.querySelectorAll('.texto');
+const texto = document.querySelectorAll('.item a span');
 setaNext.addEventListener('click', aumentaTamanho);
 setaPrevious.addEventListener('click', diminuiTamanho);
 

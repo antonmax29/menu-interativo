@@ -17,56 +17,47 @@ body{
     background-color:#fff;
    width: 60px;
    height: 340px;
-   border-radius: 10px;
-   
+   border-radius: 10px;  
    margin: 60px auto;
-  
    display: flex;
    align-items: center;
 
 }
-.container .menu{
-    
-   
+.container .menu{ 
     list-style: none;
     color: var(--corPrincipal);
     display: flex;
     flex-direction:  column;
-  
-   
+ 
 }
 
 .menu .item{
    margin: 5px;
-   
- 
+
 }
 .menu .item:hover{
-    background-color:aquamarine;
+    background-color:var(--corPrincipal);
     border-radius: 5px;
 }
 .menu .item a{
     display: flex;
     align-items: center;
     width: 100%;
-  padding: 10px;
+    padding: 10px;
     text-decoration: none;
     color: var(--corPrincipal);
-   
-    
-
 }
-
+.menu .item a:hover{
+    color: white;
+    transform: scale(1.02); 
+}
 .item a span{
    display: none; 
-margin-left: 10px;
+    margin-left: 10px;
 }
 .btn-seta{
     background-color: white;
     color: var(--corPrincipal);
-  
-    top: 45%;
-    right: -20%;
     padding: 10px;
     border-radius: 20px;
     border: 3px solid var(--corPrincipal);
