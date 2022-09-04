@@ -18,9 +18,10 @@ body{
    width: 60px;
    height: 340px;
    border-radius: 10px;  
-   margin: 60px auto;
+   margin: 30px;
    display: flex;
    align-items: center;
+   position: fixed;
 
 }
 .container .menu{ 
